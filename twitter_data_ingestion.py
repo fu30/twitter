@@ -309,9 +309,9 @@ class TwitterExtractor:
 if __name__ == "__main__":
     scraper = TwitterExtractor()
     scraper.fetch_tweets(
-        "https://twitter.com/GZhan5/likes",
-        start_date="2024-03-01",
-        end_date="2024-03-05",
+        "https://twitter.com/cnfinancewatch",
+        start_date="2024-03-07",
+        end_date="2022-03-05",
     )  # YYYY-MM-DD format
 
     # If you just want to export to Excel, you can use the following line
